@@ -1,0 +1,27 @@
+directoryName = group
+modelFileName = group_master
+routesFileName = routes
+indexFileName = index
+addFileName = add_group
+findByPropertyFileName = find_group_by_property
+findListFileName = find_group_list
+updateFileName = update_group
+updateDisplayOrderFileName = update_group_display_order
+
+modelVarName = group
+modelClassName = Group
+mongoModelName = group_master
+
+modelParameters = groupId,Number,true_groupName,String,true
+
+hasSEOData = true
+hasDisplayOrder = true
+hasStatus = true
+autoIncrementField = groupId
+
+addFieldParameters = groupName,seoData,displayOrder,status,createBy
+controllerFindFieldParameters = groupName,seoData,displayOrder,status
+serviceFindFieldParameters = groupId,groupName
+
+updateCriteria = autoIncrementField;
+serviceUpdateFieldParameters = groupName,seoData,displayOrder,status
